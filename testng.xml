@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="headlesschrome"></parameter>
+    <classes>
+      <class name="com.nephroPlus.testCases.BaseClass"/>
+      <class name="com.nephroPlus.testCases.TC_LoginTest_01"/>
+      <class name="com.nephroPlus.testCases.TC_BulkDeleteTest_02"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
